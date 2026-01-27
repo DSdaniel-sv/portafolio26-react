@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+  }
+
+  nav ul {
+    background: #3931e1;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    gap: 3rem;
+  }
+
+  nav ul li a {
+    color: #fff;
+    padding: 20px 30px;
+  }
+
+  nav ul li a:hover {
+    opacity: 0.9;
+  }
+
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  nav ul .fa-bars {
+    color: #232155;
+  }
+
+  html.dark .fa-bars {
+    color: #fff;
+  }
+}
