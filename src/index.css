@@ -11,6 +11,6 @@ body {
   background: linear-gradient(to right, #f9f9f9, #f3f0ff, #f9f9f9);
 }
 
-html.dark {
+html.dark body {
   background: linear-gradient(to right, #121130, #1e1d4b, #121130);
 }

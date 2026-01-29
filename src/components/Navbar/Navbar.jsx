@@ -12,7 +12,11 @@ export default function Navbar() {
 
   return (
     <nav className="">
-      <img src={theme === 'light' ? logoLight : logoDark} alt="logo" className="logo" />
+      <img
+        src={theme === "light" ? logoLight : logoDark}
+        alt="logo"
+        className="logo"
+      />
       <ul className={menuOpen ? "active" : ""}>
         <li className="">
           <a href="#">Home</a>

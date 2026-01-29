@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+   .hero {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding-top: 50px;
+   }
+
+   .text-container {
+      max-width: 100%;
+   }
+
+   .image-container {
+      display: none;
+   }
+}

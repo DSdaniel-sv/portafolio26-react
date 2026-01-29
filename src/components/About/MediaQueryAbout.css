@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .about-details {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .about-details img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .about-infos {
+    max-width: 100%;
+    text-align: center;
+  }
+  .circle-bg {
+    width: 200px;
+    height: 200px;
+  }
+}

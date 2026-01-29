@@ -35,6 +35,10 @@
     padding: 20px 30px;
   }
 
+  nav ul li a::after {
+  background: #f9f9f9;
+}
+
   nav ul li a:hover {
     opacity: 0.9;
   }
