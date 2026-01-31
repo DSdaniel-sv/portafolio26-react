@@ -4,7 +4,7 @@ import "./MediaQuerySkills.css";
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h1>Mis Habilidades</h1>
       <div className="skills-base">
         <div className="skills-box">

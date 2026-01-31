@@ -40,7 +40,7 @@ const portafolioItems = [
 
 export default function Portafolio() {
   return (
-    <div className="portafolio">
+    <div className="portafolio" id="portfolio">
       <h1>Portafolio</h1>
       <div className="portafolio-container">
         {portafolioItems.map((item) => (

@@ -5,7 +5,7 @@ import myPhoto from "../../assets/img/myPhoto.png";
 
 export default function About() {
   return (
-    <div className="about-details">
+    <div className="about-details" id="about">
       <div className="circle-bg"></div>
       <img src={myPhoto} alt="mifoto" />
       <div className="about-infos">

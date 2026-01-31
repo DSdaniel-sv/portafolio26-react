@@ -5,7 +5,7 @@ import myPhoto from "../../assets/img/myPhoto.png";
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="text-container">
         <span>Hola Soy,</span>
         <h1>Daniel Silva Valencia</h1>

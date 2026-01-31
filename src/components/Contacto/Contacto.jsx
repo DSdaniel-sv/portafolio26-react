@@ -4,7 +4,7 @@ import "./MediaQueryContact.css";
 
 export default function Contacto() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h1>Contacto</h1>
       <div className="contact-container">
         <div className="contact-info">
@@ -26,7 +26,12 @@ export default function Contacto() {
           <h2>Envia tu Mensaje</h2>
           <form action="https://formspree.io/f/maqjrgwy" method="POST">
             <input name="name" type="text" placeholder="Hombres" required />
-            <input name="email" type="email" placeholder="Correo@gmail.com" required />
+            <input
+              name="email"
+              type="email"
+              placeholder="Correo@gmail.com"
+              required
+            />
             <textarea name="message" placeholder="Mensaje" required></textarea>
             <button type="submit">Enviar Mensaje</button>
           </form>
