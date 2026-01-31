@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(to right, #121130, #1e1d4b, #121130);
+  padding: 20px 8vw;
+  color: #f9f9f9;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* estilos para iconos de redes sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+/* efecto individual de cada icono */
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+/* efecto al pasar el mouse */
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #3931e1;
+}

@@ -5,3 +5,4 @@ export { default as About } from "../components/About/About";
 export { default as Skills } from "../components/Skills/Skills";
 export { default as Portafolio } from "../components/Portafolio/Portafolio";
 export { default as Contacto } from "../components/Contacto/Contacto";
+export { default as Footer } from "../components/Footer/Footer";

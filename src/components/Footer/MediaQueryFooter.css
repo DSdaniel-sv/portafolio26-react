@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
+}
