@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, About, Skills } from "../util/Alias";
+import { Hero, About, Skills, Portafolio, Contacto } from "../util/Alias";
 import "./Home.css";
 
 export default function Home() {
@@ -8,6 +8,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <Portafolio />
+      <Contacto />
     </div>
   );
 }

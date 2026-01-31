@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .portafolio-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .portafolio-card {
+    flex-direction: column;
+  }
+  .portafolio-image,
+  .portafolio-content {
+    width: 100%;
+  }
+}

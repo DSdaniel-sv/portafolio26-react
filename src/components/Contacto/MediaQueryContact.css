@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .contact-form {
+    border-radius: 0 0 8px 8px;
+  }
+}
