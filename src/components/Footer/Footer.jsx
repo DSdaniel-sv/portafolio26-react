@@ -9,14 +9,33 @@ export default function Footer() {
     <footer className="footer">
       <hr />
       <div className="social-icons">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.facebook.com/daniel.yulbriner.silva.valencia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-facebook"></i>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/danielyulbrinersilva/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.tiktok.com/@dsdaniel25"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-tiktok"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/daniel-yulbriner-silva-valencia-2669ba205/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-linkedin"></i>
         </a>
       </div>
       <p>
