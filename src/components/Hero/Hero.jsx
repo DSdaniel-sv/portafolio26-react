@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import "./MediaQueryHero.css";
-import myPhoto from "../../assets/img/myPhoto.png";
+import myPhoto from "../../assets/img/Myfoto.png";
 
 export default function Hero() {
   return (

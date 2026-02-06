@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import "./MediaQueryAbout.css";
-import myPhoto from "../../assets/img/myPhoto.png";
+import myPhoto from "../../assets/img/Myfoto.png";
 
 export default function About() {
   return (
